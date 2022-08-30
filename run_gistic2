@@ -1,0 +1,28 @@
+#!/bin/sh
+## run example GISTIC analysis
+
+## output directory
+echo --- creating output directory ---
+basedir=`pwd`/result
+mkdir -p $basedir 
+soft=/share/public/software/GISTIC/
+
+MCR_ROOT=$soft/MATLAB_Compiler_Runtime
+MCR_VER=v83
+echo Setting Matlab MCR root to $MCR_ROOT
+LD_LIBRARY_PATH=$MCR_ROOT/$MCR_VER/runtime/glnxa64:$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=$MCR_ROOT/$MCR_VER/bin/glnxa64:$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=$MCR_ROOT/$MCR_VER/sys/os/glnxa64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
+XAPPLRESDIR=$MCR_ROOT/$MCR_VER/MATLAB_Component_Runtime/v83/X11/app-defaults
+export XAPPLRESDIR
+
+
+
+echo --- running GISTIC ---
+## input file definitions
+segfile=`pwd`/segmentationfile.txt
+markersfile=`pwd`/markersfile.txt
+refgenefile=$soft/refgenefiles/hg19.mat
+## call script that sets MCR environment and calls GISTIC executable 
+$soft/gp_gistic2_from_seg -b $basedir -seg $segfile  -refgene $refgenefile -alf $alf -cnv $cnvfile -genegistic 1 -smallmem 1 -broad 1 -brlen 0.5 -conf 0.90 -armpeel 1 -savegene 1 -gcm extreme -td 0.01

@@ -1,0 +1,1 @@
+fastp -i $r1 -I $r2 --cut_by_quality3 -l 50 --correction -w 8 -s 24 -o $or1 -O $or2 -j json -h html --adapter_sequence GATCGGAAGAGCACACGTCTGAACTCCAGTC --adapter_sequence_r2 GATCGGAAGAGCGTCGTGTAGGGAAAGAGTG -g -x

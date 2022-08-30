@@ -1,0 +1,1 @@
+./mutsigcv/software/MutSigCV_1.4/run_MutSigCV.sh ./mutsigcv/software/v81 all.maf exome_full192.coverage.txt gene.covariates.txt ./wgs ./mutsigcv/software/mutation_type_dictionary_file.txt ./mutsigcv/software/chr_files_hg19
