@@ -1,4 +1,4 @@
-#!/share/public/software/R/3.5.3/lib64/R/bin/Rscript
+#!/home/R/3.5.3/lib64/R/bin/Rscript
 library("ActiveDriverWGS")
 args = commandArgs(trailingOnly=TRUE)
 
