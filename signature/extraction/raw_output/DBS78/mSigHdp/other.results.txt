@@ -1,0 +1,23 @@
+Call
+AnalyzeAndPlotretval(retval = multi.chains.etc, input.catalog = input.catalog, 
+    out.dir = out.dir, ground.truth.sig = ground.truth.sig, ground.truth.exp = ground.truth.exp, 
+    verbose = verbose, overwrite = overwrite)
+
+Average cosine similarity
+[1] 0.4401016
+
+Average cosine similarity to each ground-truth signature
+NULL
+
+Number of ground-truth signatures
+[1] 11
+
+Number of extracted signatures
+[1] 4
+
+sigAnalysis0$extracted.with.no.best.match
+[1] "hdp.1"           "hdp.3"           "potential hdp.1"
+
+sigAnalysis0$ground.truth.with.no.best.match
+ [1] "DBS1"  "DBS3"  "DBS4"  "DBS5"  "DBS6"  "DBS7"  "DBS8"  "DBS9"  "DBS10"
+[10] "DBS11"
