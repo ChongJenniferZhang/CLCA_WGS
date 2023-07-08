@@ -1,0 +1,5 @@
+sig_gene_counts	median_sig	c	upper_thresh	removed_for_inflation
+ActiveDriverWGS	11	4.5	4	18	0
+MutSig2CV_NC	5	4.5	4	18	0
+NBR	4	4.5	4	18	0
+oncodrivefml	0	4.5	4	18	0

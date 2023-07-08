@@ -1,0 +1,8 @@
+coverage_models_mat_file	ref/covmodels/Liver-HCC_e15_gc_pc.3utr_covmodel/coverage_models.nontrans.mat
+covariates_file	ref/covmodels/Liver-HCC_e15_gc_pc.3utr_covmodel/covariates_nontransformed.txt
+context_and_effect_fwb_file	ref/c65e15/all.fwb
+context_and_effect_categs_file	ref/c65e15/categs.txt
+effect_table	ref/cons_effect_table.txt
+FixedWidthBinary_jar_file	src/FixedWidthBinary.jar
+enforce_target_list_footprint_flank_size	3000
+load_only	0

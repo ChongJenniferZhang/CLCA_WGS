@@ -1,0 +1,8 @@
+chromosome	chromosomeBand	gene	driver	category	likelihoodMethod	driverLikelihood	dndsLikelihood	missense	nonsense	splice	inframe	frameshift	biallelic	minCopyNumber	maxCopyNumber
+chr1	p32.3	CDKN2C	DEL	TSG	DEL	1.0000	0.0000	0	0	0	0	0	true	0.0342	0.0342
+chr2	q33.3	PARD3B	DEL	TSG	DEL	1.0000	0.0000	0	0	0	0	0	true	0.0337	2.0026
+chr14	q23.3	GPHN	DEL	TSG	DEL	1.0000	0.0000	0	0	0	0	0	true	0.0424	1.9240
+chr14	q24.1	RAD51B	DEL	TSG	DEL	1.0000	0.0000	0	0	0	0	0	true	0.0465	1.0179
+chr22	q12.2-q12.3	DEPDC5	DEL	TSG	DEL	1.0000	0.0000	0	0	0	0	0	true	0.0268	1.0103
+chrX	p11.3	KDM6A	DEL	TSG	DEL	1.0000	0.0000	0	0	0	0	0	true	0.0173	1.0017
+chrX	q11.2	AMER1	DEL	TSG	DEL	1.0000	0.0000	0	0	0	0	0	true	0.0278	0.0278

@@ -1,0 +1,13 @@
+Interval	1	chr16	85758001	86647000
+List of cycle segments
+Segment	1	chr16	85758001	85996938
+Segment	2	chr16	85758048	86379065
+Segment	3	chr16	85997565	86379065
+Segment	4	chr16	85997565	86647000
+Segment	5	chr16	86379231	86385719
+Segment	6	chr16	86379231	86647000
+Segment	7	chr16	86385534	86385719
+Segment	8	chr16	86385534	86627143
+Cycle=1;Copy_count=1.26581107248;Segments=0+,4-,1-,0-
+Cycle=2;Copy_count=0.715870942869;Segments=2+,5-,8+
+Cycle=3;Copy_count=0.290185225136;Segments=0+,6-,7+,3-,1-,0-

@@ -1,0 +1,12 @@
+out.out_amplicon10	out/out.out_amplicon10_cycles.txt	out/out.out_amplicon10_graph.txt
+out.out_amplicon11	out/out.out_amplicon11_cycles.txt	out/out.out_amplicon11_graph.txt
+out.out_amplicon12	out/out.out_amplicon12_cycles.txt	out/out.out_amplicon12_graph.txt
+out.out_amplicon1	out/out.out_amplicon1_cycles.txt	out/out.out_amplicon1_graph.txt
+out.out_amplicon2	out/out.out_amplicon2_cycles.txt	out/out.out_amplicon2_graph.txt
+out.out_amplicon3	out/out.out_amplicon3_cycles.txt	out/out.out_amplicon3_graph.txt
+out.out_amplicon4	out/out.out_amplicon4_cycles.txt	out/out.out_amplicon4_graph.txt
+out.out_amplicon5	out/out.out_amplicon5_cycles.txt	out/out.out_amplicon5_graph.txt
+out.out_amplicon6	out/out.out_amplicon6_cycles.txt	out/out.out_amplicon6_graph.txt
+out.out_amplicon7	out/out.out_amplicon7_cycles.txt	out/out.out_amplicon7_graph.txt
+out.out_amplicon8	out/out.out_amplicon8_cycles.txt	out/out.out_amplicon8_graph.txt
+out.out_amplicon9	out/out.out_amplicon9_cycles.txt	out/out.out_amplicon9_graph.txt

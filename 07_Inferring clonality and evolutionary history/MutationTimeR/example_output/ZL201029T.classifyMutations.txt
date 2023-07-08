@@ -1,0 +1,5 @@
+Var1	Freq
+clonal [early]	1154
+clonal [late]	11
+clonal [NA]	21049
+subclonal	0
