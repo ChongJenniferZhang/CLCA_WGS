@@ -3,7 +3,7 @@ This repository contains software and analysis code used for the publication: De
 
 ## Contents
 
-category | function | software | version | container name | 
+Category | Function | Software | Version | Container name | 
 --- | --- | --- | --- |--- |
 1|Mutation calling|	BWA|	0.7.12|	mutation_calling.sif|
 1|Mutation calling|	FASTP|	0.13.1|	mutation_calling.sif|
