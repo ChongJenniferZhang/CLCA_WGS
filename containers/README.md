@@ -60,10 +60,10 @@ The containers have been published on Zenodo at
 <https://doi.org/10.5281/zenodo.7260221>.
 
 To run the analysis using the containers, users are required to download
-the `.sif` files and place them inside the `container` folder located in
+the `.sif` files and place them inside the `containers` folder located in
 the top directory of a clone of this repository. This folder structure
 is utilized by the analysis code to invoke the containers.
 
 For a comprehensive list of software installed within the containers,
 please refer to
-[CLCA_container_info.xlsx](https://github.com/ChongJenniferZhang/CLCA_WGS/raw/main/container/CLCA_container_info.xlsx).
+[CLCA_containers_info.xlsx](https://github.com/ChongJenniferZhang/CLCA_WGS/raw/main/containers/CLCA_containers_info.xlsx).

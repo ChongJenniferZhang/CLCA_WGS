@@ -4,7 +4,7 @@ This folder contains code and results of mutational signature analysis in the pa
 The software needed is installed inside the singularity container `signature.sif`.
 
 Download this container from [Zenodo](https://doi.org/10.5281/zenodo.7260221) and put 
-it inside the `container` folder in the top directory of a clone of this repository.
+it inside the `containers` folder in the top directory of a clone of this repository.
 This is because 
 the script that calls the container to run the analysis utilizes the folder name structure.
 
