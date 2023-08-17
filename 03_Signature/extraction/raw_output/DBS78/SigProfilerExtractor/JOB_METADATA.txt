@@ -20,8 +20,8 @@ Scikit-learn version: 1.1.2
 --------------EXECUTION PARAMETERS--------------
 INPUT DATA
 	input_type: matrix
-	output: /data/rozen/home/e0012078/publication/CLCA_paper_test/signature/extraction/raw_output/DBS78/SigProfilerExtractor/
-	input_data: /data/rozen/home/e0012078/publication/CLCA_paper_test/signature/extraction/input/DBS78/clca_catalog_DBS78.txt
+	output: /data/rozen/home/e0012078/publication/CLCA_paper_test/03_Signature/extraction/raw_output/DBS78/SigProfilerExtractor/
+	input_data: /data/rozen/home/e0012078/publication/CLCA_paper_test/03_Signature/extraction/input/DBS78/clca_catalog_DBS78.txt
 	reference_genome: GRCh37
 	context_types: DBS78
 	exome: False
@@ -34,7 +34,7 @@ NMF ENGINE
 	precision: single
 	matrix_normalization: gmm
 	resample: True
-	seeds: /data/rozen/home/e0012078/publication/CLCA_paper_test/signature/extraction/raw_output/DBS78/SigProfilerExtractor//Seeds.txt
+	seeds: /data/rozen/home/e0012078/publication/CLCA_paper_test/03_Signature/extraction/raw_output/DBS78/SigProfilerExtractor//Seeds.txt
 	min_NMF_iterations: 10,000
 	max_NMF_iterations: 1,000,000
 	NMF_test_conv: 10,000
@@ -82,4 +82,4 @@ Execution time:0:04:57
 -------Job Status------- 
 Analysis of mutational signatures completed successfully! 
 Total execution time: 0:17:01 
-Results can be found in:  /data/rozen/home/e0012078/publication/CLCA_paper_test/signature/extraction/raw_output/DBS78/SigProfilerExtractor/  folder
+Results can be found in:  /data/rozen/home/e0012078/publication/CLCA_paper_test/03_Signature/extraction/raw_output/DBS78/SigProfilerExtractor/  folder

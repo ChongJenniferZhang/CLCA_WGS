@@ -16,7 +16,7 @@ if __name__ == "__main__":
   
   project_dir = sys.argv[1]
   
-  output_dir = project_dir+"/signature/extraction/raw_output/DBS78/SigProfilerExtractor/"
+  output_dir = project_dir+"/03_Signature/extraction/raw_output/DBS78/SigProfilerExtractor/"
   path = Path(output_dir)
   if path.exists()==False:
       path.mkdir(parents=True, exist_ok=True)
@@ -27,7 +27,7 @@ if __name__ == "__main__":
   seed_df = seed_df.set_index("Replicates")
   seed_df.to_csv(output_dir+"/Seeds.txt", sep="\t")
   
-  input_catalog = project_dir+"/signature/extraction/input/DBS78/clca_catalog_DBS78.txt"
+  input_catalog = project_dir+"/03_Signature/extraction/input/DBS78/clca_catalog_DBS78.txt"
   seeds = output_dir+"/Seeds.txt"
   
   sig.sigProfilerExtractor(

@@ -19,4 +19,4 @@ else
 fi
 
 module load singularity/3.8.3
-singularity exec -e $CLCA_PROJECT_DIR/container/signature.sif Rscript --vanilla $CLCA_PROJECT_DIR/signature/extraction/code/DBS78/01a_run_mSigHdp_DBS78.R $CLCA_PROJECT_DIR
+singularity exec -e $CLCA_PROJECT_DIR/containers/signature.sif Rscript --vanilla $CLCA_PROJECT_DIR/03_Signature/extraction/code/DBS78/01a_run_mSigHdp_DBS78.R $CLCA_PROJECT_DIR
