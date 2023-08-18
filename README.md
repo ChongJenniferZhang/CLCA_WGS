@@ -20,9 +20,9 @@ Category | Function | Software | Version | Container name |
 3|	Mutational signature extraction and assignment|	mSigHdp|	1.1.2|	signature.sif|
 3|	Mutational signature extraction and assignment|	SigProfilerExtractor|	1.1.0|	signature.sif|
 3|	Mutational signature extraction and assignment|	mSigAct|	2.2.3|	signature.sif|
-4|	SV & clustered mutational events|	maftools|	2.6.05|	SV_CNA_ecDNA.sif|
-4|	SV & clustered mutational events|	Shatterseek| 	0.4|	SV_CNA_ecDNA.sif|
-4|	SV & clustered mutational events|	lumpy|	0.2.13|	SV_CNA_ecDNA.sif|
+4|	SV and clustered mutational events|	maftools|	2.6.05|	SV_CNA_ecDNA.sif|
+4|	SV and clustered mutational events|	Shatterseek| 	0.4|	SV_CNA_ecDNA.sif|
+4|	SV and clustered mutational events|	lumpy|	0.2.13|	SV_CNA_ecDNA.sif|
 5|	CNA calling|	purple|	2.34|	SV_CNA_ecDNA.sif|
 5|	CNA calling|	Sequenza| 	2.1.1|	SV_CNA_ecDNA.sif|
 6|	Detection of ecDNA|	AmpliconClassifier| 	0.2.5|	SV_CNA_ecDNA.sif|
