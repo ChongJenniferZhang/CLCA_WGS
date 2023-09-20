@@ -24,12 +24,12 @@ sigs_to_use <- sigs[, names(sig_prop), drop = FALSE]
 output_home <- "example_output/mSigAct"
 
 retval <-
-  mSigAct:: MAPAssignActivity(spectra = test_catalog, 
-                              sigs = sigs_to_use, 
-                              sigs.presence.prop = sig_prop,
-                              output.dir = output_home, 
-                              max.level = ncol(sigs_to_use) - 1,
-                              p.thresh = 0.05 / ncol(sigs_to_use), 
-                              num.parallel.samples = 2, 
-                              mc.cores.per.sample = 5, 
-                              seed = seed)
+  mSigAct::MAPAssignActivity(spectra = test_catalog, 
+                             sigs = sigs_to_use, 
+                             sigs.presence.prop = sig_prop,
+                             output.dir = output_home, 
+                             max.level = ncol(sigs_to_use) - 1,
+                             p.thresh = 0.05 / ncol(sigs_to_use), 
+                             num.parallel.samples = 2, 
+                             mc.cores.per.sample = 5, 
+                             seed = seed)
