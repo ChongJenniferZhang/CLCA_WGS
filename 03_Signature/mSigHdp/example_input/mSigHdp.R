@@ -1,4 +1,4 @@
-.libPaths(c("/usr/local/lib/R/site-library", # R library path inside container
+.libPaths(c("/usr/local/lib/R/site-library", 
             .libPaths()))
 
 args <- commandArgs(trailingOnly = TRUE)

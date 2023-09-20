@@ -1,7 +1,6 @@
-.libPaths(c("/usr/local/lib/R/site-library", # R library path inside container
+.libPaths(c("/usr/local/lib/R/site-library", 
             .libPaths()))
 
-# args have the arguments passed to Rscript from bash script
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) == 0) {
   stop("Please provide the random seed as an argument")
