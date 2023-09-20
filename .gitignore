@@ -4,15 +4,4 @@
 .RData
 .Ruserdata
 
-container/*.sif
-signature/**/*.log
-
-signature/**/hdp.retval.Rdata
-signature/**/checkpoint
-signature/**/Diagnostic_Plots
-
-signature/**/SigProfilerExtractor/SBS96
-signature/**/SigProfilerExtractor/DBS78
-signature/**/SigProfilerExtractor/ID83
-
-signature/**/raw
+containers/*.sif

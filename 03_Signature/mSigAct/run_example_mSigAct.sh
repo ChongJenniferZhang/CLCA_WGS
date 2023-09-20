@@ -1,0 +1,1 @@
+singularity exec signature.sif Rscript --vanilla example_input/mSigAct.R 123

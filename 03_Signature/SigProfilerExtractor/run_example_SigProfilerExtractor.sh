@@ -1,0 +1,1 @@
+singularity exec signature.sif python3.8 example_input/SigPro.py
